@@ -12,7 +12,7 @@ This repository contains projects related to Linear Algebra, completed as part o
    **Keywords**: SVD, Watermarking, Singular Value Decomposition, Multimedia Security, Robustness
    
 
-## 2- Eigen Decomposition: Markov Chains
+## 2- Markov Matrices: Business Cycle
    _Designed by: Erfan Asgari (TA), Fardin Abbasi (TA)_  
    _Teaching Assistants of Linear Algebra | Spring 2023 | Dr. Yazdanpanah | University of Tehran_
 
