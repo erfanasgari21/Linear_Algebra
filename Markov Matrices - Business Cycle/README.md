@@ -8,9 +8,11 @@ In a hypothetical country, each decade:
 #### 1. Write the algebraic relation for the population shares of cities, \(c_{t+1}\), and villages, \(v_{t+1}\), based on the current population shares of cities, \(c_t\), and villages, \(v_t\).
 
 #### 2. Define the population distribution vector as:
-\[
+
+$$
 p_t = \begin{pmatrix} c_t \\ v_t \end{pmatrix}
-\]
+$$
+
 Rewrite the relation for \(p_{t+1}\) in matrix multiplication form.
 
 ### 3. Assuming \(p_0\) represents the population distribution at an initial time and \(p_t\) represents the population distribution after \(t\) decades, express \(p_t\) in terms of \(p_0\).
