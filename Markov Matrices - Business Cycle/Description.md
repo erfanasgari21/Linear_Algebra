@@ -70,7 +70,7 @@ b) The eigenvalues of a Markov matrix are not greater than 1.
 
 The figure below shows a **Markov Chain** with two states. The initial probability of being in each state is denoted by the probability vector $p_0$, known as the initial state distribution. In a Markov Chain, the transition probability to each state depends only on the current state. Thus, the chain can be described with a 2x2 Markov matrix, similar to Question 1.
 
-![Markov Chain](images/markov-chain.jpg)
+![Markov Chain](media/markov_chain.png)
 
 Here, a more formal definition for the probability vector and transition matrix, which is a Markov matrix, is provided:
 
