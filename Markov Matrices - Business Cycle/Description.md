@@ -4,10 +4,10 @@
 
 In a hypothetical country, every decade, $5$ percent of the rural population migrates to cities and $0.1$ percent of city dwellers migrate back to rural areas.
 
-#### Exercise 1
+### 1- Deriving Population Transition Equations
 Write the algebraic relation for the future population shares of cities ($c_{t+1}$) and rural areas ($v_{t+1}$) in terms of the current population shares of cities ($c_{t}$) and rural areas ($v_{t}$).
 
-#### Exercise 2
+### 2- Matrix Representation of Population Dynamics
 
 Define the population distribution vector as
 
@@ -21,14 +21,14 @@ $$
 
 Rewrite the relation for $p_{t+1}$ in terms of a matrix multiplication.
 
-#### Exercise 3
+### 3- Recursive Representation to Absolute Representation
 
 Assuming the vector $p_0$ represents the population distribution at the initial time and $p_t$ represents the population distribution after $t$ decades, what is the relation of $p_t$ in terms of $p_0$?
 
-> #### Note:
+> ### Note:
 > Matrices like the coefficient matrix in this problem, which are square and represent probabilities, are called **Markov Matrices**.
 
-#### Exercise 4
+### 4- Identifying Markov Matrices
 
 Based on the concept of Markov matrices and the matrix properties you formed in the previous problem, which of the following matrices is a Markov matrix? Describe two properties of Markov matrices according to probability principles.
 
@@ -55,16 +55,17 @@ A_3 =
 \end{bmatrix}
 $$
 
-#### Exercise 5
+### 5- Properties of Markov Matrices: Eigenvalues and Eigenvectors
 
 Given the two properties of Markov matrices, show that:
 
 a) Every Markov matrix has an eigenvalue equal to 1.
 
 b) The eigenvalues of a Markov matrix are not greater than 1. 
-*Hint: For which entry of $A^T v$ cannot be greater than the entry of $v$?*
 
-> #### Definition
+*Hint: For which entry of $`A^T v`$ cannot be greater than the entry of $`v`$?*
+
+> ### Definition
 > A **Stochastic Vector** represents a discrete probability distribution with non-negative entries that sum to 1. Each entry of this vector represents the probability of one of the possible outcomes in a conventional ordering.
 
 The figure below shows a **Markov Chain** with two states. The initial probability of being in each state is denoted by the probability vector $p_0$, known as the initial state distribution. In a Markov Chain, the transition probability to each state depends only on the current state. Thus, the chain can be described with a 2x2 Markov matrix, similar to Question 1.
@@ -107,7 +108,7 @@ An optional study of this [interactive booklet](https://setosa.io/ev/markov-chai
 
 ## Introduction to Numerical Methods
 
-#### Exercise 6
+### 6- Numerical Analysis and Visualization
 
 For the matrix 
 
@@ -145,36 +146,32 @@ in separate plots. Also, find the eigenvalues and eigenvectors of this matrix us
 
 Based on the plots, what direction does $A^N v$ tend towards as $N$ increases?
 
-#### Exercise 7
+### 7- Decomposing Vectors and Eigenvalue Analysis
 
 Explain the observed behavior in the previous question by decomposing a hypothetical vector $v$ along the eigenvectors and find an exceptional case.
 
-#### Exercise 8
+### 8- Iterative Methods for Eigenvalue Computation
 
 Based on the result from the previous question, suggest a method to find an eigenvector and eigenvalue of a matrix using iterative matrix multiplication. Which eigenvalue and eigenvector does this method find? Write a function that, given a matrix and the number of iterations as input, finds and returns the corresponding eigenvector and eigenvalue using the suggested method. Test your function and compare the results with built-in functions.
 
-> #### Note:
+> ### Note:
 > Your function should not suffer from numerical instability for very large or small numbers of iterations or eigenvalues.
 
-#### Exercise 9
+### 9- Effect of Matrix Modifications on Eigenpairs
 
-Given the set of eigenvalues $\{\lambda_1, \ldots, \lambda_n \}$ and eigenvectors $\{ v_1, \ldots, v_n \}$ of matrix $A$, infer the eigenvalues and eigenvectors of matrix $A - \mu I$.
+Given the set of eigenvalues $\{\lambda_1, \ldots, \lambda_n \}$ and eigenvectors $\{ v_1, \ldots, v_n \}$ of matrix $A$, infer the eigenvalues and eigenvectors of matrix $`A - \mu I`$ and $`A^{-1}`$.
 
-#### Exercise 10
+### 10- Inverse Iteration Method
 
-Investigate the inverse iteration method, which is a technique for finding eigenvalues and eigenvectors of a matrix, and explain its logic. Implement this method in a function with the assumption that a shift value is provided as input. How does this method overcome the limitation of the power iteration method?
+Investigate the inverse iteration method, which is a technique for finding eigenvalues and eigenvectors of a matrix, and explain its logic using the results of the previous question. Implement this method in a function with the assumption that a shift value is provided as input. How does this method overcome the limitation of the power iteration method?
 
-#### Exercise 11
-
-If we have a biased coin and do not know the probability of heads or tails, how can we determine this probability? How can the accuracy of this method be improved?
-
-#### Exercise 12
+### 11- Monte Carlo Method
 
 In cases where the formulation of a probabilistic problem is complex or some values are unknown, the **Monte Carlo Estimation** method can be useful for obtaining certain variables through experiments and sampling. Briefly explain the use of this method in estimating the value of $\pi$ based on this [interactive booklet](https://observablehq.com/@jajoosam/mathe-carlo/2).
 
-#### Exercise 13
+### 12- Monte Carlo Methods for Probabilistic Estimation
 
 In a Markov chain, the steady state distribution is a vector to which the probability distribution vector tends as $t \to \infty$. Based on what you learned from the Monte Carlo method, suggest a method to estimate the steady state distribution in a Markov chain using simulation and sampling.
 
-> #### Note:
+> ### Note:
 > The proposed method should not use matrix multiplication and should only rely on sampling from probability distributions.
