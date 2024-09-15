@@ -1,10 +1,10 @@
-#### Markov Matrices
+# Markov Matrices
 
-##### Introduction to Markov Chains
+## Introduction to Markov Chains
 
 In a hypothetical country, every decade, $5$ percent of the rural population migrates to cities and $0.1$ percent of city dwellers migrate back to rural areas.
 
-##### Exercise 1
+#### Exercise 1
 
 Write the algebraic relation for the future population shares of cities ($c_{t+1}$) and rural areas ($v_{t+1}$) in terms of the current population shares of cities ($c_{t}$) and rural areas ($v_{t}$).
 
