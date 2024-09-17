@@ -13,15 +13,15 @@ This repository contains projects related to Linear Algebra, completed as part o
    
 
 ## 2- Markov Matrices: Business Cycle
-   _Designed by: Erfan Asgari (TA), Fardin Abbasi (TA)_  
-   _Teaching Assistants of Linear Algebra | Spring 2023 | Dr. Yazdanpanah | University of Tehran_
+   _Designed by: Erfan Asgari, Fardin Abbasi_  
+   _Teaching Assistants of Linear Algebra | Spring 2023 | Dr. Sarafraz | University of Tehran_
 
    This project introduces students to Markov chains and numerical methods in linear algebra. It covers the analysis of Markov matrices, eigenvalues, and eigenvectors, with a specific application to Economics for business cycle analysis. The project demonstrates how these mathematical tools can help analyze economic trends and improve policy making.
 
    **Keywords**: Markov Chains, Business Cycle, Linear Algebra, Eigenvalue, Numerical Methods, Monte Carlo
 
 ## 3- LSA: News Category Classification
-   _Designed by: Erfan Asgari (TA), Fardin Abbasi (TA)_  
+   _Designed by: [Erfan Asgari](https://github.com/erfanasgari21), [Fardin Abbasi](https://github.com/fardinabbasi)_  
    _Teaching Assistants of Linear Algebra | Spring 2024 | Dr. Sarafraz | University of Tehran_
 
    This project applies Latent Semantic Analysis (LSA) to classify news articles into five categories. It involves text preprocessing, Bag of Words, TF-IDF, and using truncated SVD. The implementation includes a detailed analysis of word embeddings and classification based on semantic similarities.

@@ -190,16 +190,16 @@ The **Business Cycle** is one of the key topics in macroeconomics. It refers to 
 
 Each business cycle passes through four distinct phases:
 
-### Expansion/Recovery
+#### Expansion/Recovery
 Expansion or recovery is the most favorable economic state, characterized by business booms.
 
-### Peak
+#### Peak
 At this stage, economic parameters have increased or decreased excessively, and the economy begins to grow uncontrollably. This imbalance signals the start of a recession or contraction phase.
 
-### Recession/Depression
+#### Recession/Depression
 The contraction phase is associated with reduced economic activity. During this period, unemployment usually rises, stock markets fall, and GDP growth drops below 2%.
 
-### Trough
+#### Trough
 This phase is the exact opposite of the peak. The cycle reaches the trough when the recession ends, and the economy starts returning to an expansion phase.
 
 In this project, we refer to the state between peak and trough as the **average** state.
@@ -207,9 +207,7 @@ In this project, we refer to the state between peak and trough as the **average*
 > ### The Trading Game 
 > Similar cycles can be observed in all economic areas! For example, the **Product Life Cycle** follows a similar pattern in microeconomics when introducing a product to the market. Similar behavior can also be found in stock markets. Try to maximize your profits in this [stock market simulation](https://www.bloomberg.com/features/2015-stock-chart-trading-game/)!
 
----
-
-## Markov Chain Graph
+### Markov Chain Graph
 
 Below is a Markov chain graph of a business cycle for a specific country. Each arrow represents the probability of transitioning from one state to another in a given month. It is also possible to remain in the current state.
 
