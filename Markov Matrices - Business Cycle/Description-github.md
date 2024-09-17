@@ -27,7 +27,7 @@ $$
 
 Rewrite the relation for $p_{t+1}$ in terms of a matrix multiplication.
 
-### 3- Recursive Representation to Absolute Representation
+### 3- Explicit Representation
 
 Assuming the vector $p_0$ represents the population distribution at the initial time and $p_t$ represents the population distribution after $t$ decades, what is the relation of $p_t$ in terms of $p_0$?
 
