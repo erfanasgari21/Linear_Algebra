@@ -144,7 +144,7 @@ $$
 
 in separate plots. Also, find the eigenvalues and eigenvectors of this matrix using built-in functions, and show the direction of the eigenvectors as lines on these plots.
 
-Based on the plots, what direction does $A^N v$ tend towards as $N$ increases?
+Based on the plots, what direction does $`A^N v`$ tend towards as $`N`$ increases?
 
 ### 7- Decomposing Vectors and Eigenvalue Analysis
 
@@ -154,12 +154,12 @@ Explain the observed behavior in the previous question by decomposing a hypothet
 
 Based on the result from the previous question, suggest a method to find an eigenvector and eigenvalue of a matrix using iterative matrix multiplication. Which eigenvalue and eigenvector does this method find? Write a function that, given a matrix and the number of iterations as input, finds and returns the corresponding eigenvector and eigenvalue using the suggested method. Test your function and compare the results with built-in functions.
 
-> ### Note:
+> **Note:**
 > Your function should not suffer from numerical instability for very large or small numbers of iterations or eigenvalues.
 
 ### 9- Effect of Matrix Modifications on Eigenpairs
 
-Given the set of eigenvalues $\{\lambda_1, \ldots, \lambda_n \}$ and eigenvectors $\{ v_1, \ldots, v_n \}$ of matrix $A$, infer the eigenvalues and eigenvectors of matrix $`A - \mu I`$ and $`A^{-1}`$.
+Given the set of eigenvalues $`\{\lambda_1, \ldots, \lambda_n \}`$ and eigenvectors $`\{ v_1, \ldots, v_n \}`$ of matrix $`A`$, infer the eigenvalues and eigenvectors of matrix $`A - \mu I`$ and $`A^{-1}`$.
 
 ### 10- Inverse Iteration Method
 
@@ -171,7 +171,103 @@ In cases where the formulation of a probabilistic problem is complex or some val
 
 ### 12- Monte Carlo Methods for Probabilistic Estimation
 
-In a Markov chain, the steady state distribution is a vector to which the probability distribution vector tends as $t \to \infty$. Based on what you learned from the Monte Carlo method, suggest a method to estimate the steady state distribution in a Markov chain using simulation and sampling.
+In a Markov chain, the steady state distribution is a vector to which the probability distribution vector tends as $`t \to \infty`$. Based on what you learned from the Monte Carlo method, suggest a method to estimate the steady state distribution in a Markov chain using simulation and sampling.
 
-> ### Note:
+> **Note:**
 > The proposed method should not use matrix multiplication and should only rely on sampling from probability distributions.
+
+## Business Cycle
+
+The **Business Cycle** is one of the key topics in macroeconomics. It refers to a series of stages in the economy that continuously repeat, characterized by expansion and contraction. Governments can make better policy decisions by understanding the different mechanisms of this cycle.
+
+![Business Cycle](media/business_cycle.jpg)
+
+Each business cycle passes through four distinct phases:
+
+### Expansion/Recovery
+Expansion or recovery is the most favorable economic state, characterized by business booms.
+
+### Peak
+At this stage, economic parameters have increased or decreased excessively, and the economy begins to grow uncontrollably. This imbalance signals the start of a recession or contraction phase.
+
+### Recession/Depression
+The contraction phase is associated with reduced economic activity. During this period, unemployment usually rises, stock markets fall, and GDP growth drops below 2%.
+
+### Trough
+This phase is the exact opposite of the peak. The cycle reaches the trough when the recession ends, and the economy starts returning to an expansion phase.
+
+In this project, we refer to the state between peak and trough as the **average** state.
+
+> ### The Trading Game 
+> Similar cycles can be observed in all economic areas! For example, the **Product Life Cycle** follows a similar pattern in microeconomics when introducing a product to the market. Similar behavior can also be found in stock markets. Try to maximize your profits in this [stock market simulation](https://www.bloomberg.com/features/2015-stock-chart-trading-game/)!
+
+---
+
+## Markov Chain Graph
+
+Below is a Markov chain graph of a business cycle for a specific country. Each arrow represents the probability of transitioning from one state to another in a given month. It is also possible to remain in the current state.
+
+![Markov Chain Graph](media/business_graph.png)
+
+### 13- Extracting the Transition Matrix
+Extract the transition matrix from the graph:
+
+$$
+A = \begin{pmatrix}
+\text{State} & \text{Trough} & \text{Average} & \text{Peak} \\\
+\text{Trough} & ? & ? & ? \\\
+\text{Average} & ? & ? & ? \\\
+\text{Peak} & ? & ? & ?
+\end{pmatrix}
+$$
+
+### 14- Eigenvalues and Eigenvectors
+Find the eigenvalues and eigenvectors of this Markov matrix. Normalize the eigenvectors so they become probability vectors.
+
+### 15- Monte Carlo Simulation
+If, based on current government policies, the initial state distribution vector is:
+
+$$
+p_0 = 
+\begin{pmatrix}
+0.2 \\\
+0.5 \\\
+0.3
+\end{pmatrix}
+$$
+
+Using 1000 samples from this distribution, create a sample set for the current month. Assuming current government policies remain, predict the state distribution for 6, 12, 72, and 120 months into the future using the **Monte Carlo Estimation** method.
+
+### 16- Long-term State Prediction
+Without the need for statistical simulations, Markov chains allow predicting future state distributions using only the transition matrix. The government may have three possible state distributions this month:
+
+$$
+p_a = \begin{pmatrix}
+0.1 \\\ 0.8 \\\ 0.1
+\end{pmatrix}
+\quad
+p_b = \begin{pmatrix}
+0.6 \\\ 0.3 \\\ 0.1
+\end{pmatrix}
+\quad
+p_c = \begin{pmatrix}
+0.1 \\\ 0.15 \\\ 0.75 
+\end{pmatrix}
+$$
+
+Using matrix multiplication, calculate the long-term results (over 120 months) for each of these policies. Plot a **3D scatter plot** showing the probability distribution for each policy over time.
+
+> **Note:**  
+> Make sure the plot includes enough detail, including a title, axis labels, and a legend.
+
+### 17- Steady-State Distribution
+The steady-state distribution is the long-term probability distribution. Based on your results, argue whether the initial state distribution affects the steady-state distribution.
+
+### 18- Steady-State and Eigenvalues
+Using what you have learned about the eigenvalues of Markov matrices and the **power iteration method**, explain the relationship between the steady-state distribution and the eigenvalues and eigenvectors of the transition matrix.
+
+### 19- Finding the Steady-State Distribution
+Another definition of the steady-state distribution is that it does not change over time, i.e., $`p_{t+1} = p_t`$. Using this definition and the result of Exercise 2, form the system of equations to find the steady-state distribution $`p_{ss}`$ in the standard form $`Ax = b`$. Explain why this equation does not have a unique solution in its current form.
+
+### 20- Adding a Constraint
+What assumption about the sum of the elements in $`p_{ss}`$ was missing in the previous formulation? By adding this assumption as a new equation, rewrite the coefficient matrix and the constants. Solve the system using built-in functions and compare the result with Exercise 14.
