@@ -4,7 +4,7 @@ This repository contains projects related to Linear Algebra, completed as part o
 
 
 ## 1- SVD: Image Watermarking
-   _Implemented by: Erfan Asgari, Sina Mohammadi_  
+   _Implemented by: [Erfan Asgari](https://github.com/erfanasgari21), [Sina Mohammadi](https://gist.github.com/smsina)_  
    _Students of Linear Algebra | Spring 2023 | Dr. Yazdanpanah | University of Tehran_
 
    This project focuses on SVD-based image watermarking techniques for multimedia protection. Using Singular Value Decomposition (SVD), the goal is to embed watermarks in a way that resists unauthorized tampering while maintaining high imperceptibility. The project explores a SVD-based watermarking scheme, its robustness, and its effectiveness in preserving intellectual property.
@@ -13,7 +13,7 @@ This repository contains projects related to Linear Algebra, completed as part o
    
 
 ## 2- Markov Matrices: Business Cycle
-   _Designed by: Erfan Asgari, Fardin Abbasi_  
+   _Designed by: [Erfan Asgari](https://github.com/erfanasgari21), [Fardin Abbasi](https://github.com/fardinabbasi)_  
    _Teaching Assistants of Linear Algebra | Spring 2023 | Dr. Sarafraz | University of Tehran_
 
    This project introduces students to Markov chains and numerical methods in linear algebra. It covers the analysis of Markov matrices, eigenvalues, and eigenvectors, with a specific application to Economics for business cycle analysis. The project demonstrates how these mathematical tools can help analyze economic trends and improve policy making.
