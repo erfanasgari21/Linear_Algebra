@@ -20,7 +20,7 @@ This repository contains projects related to Linear Algebra, completed as part o
 
    **Keywords**: Markov Chains, Business Cycle, Linear Algebra, Eigenvalue, Numerical Methods, Monte Carlo
 
-## 3- [LSA: News Category Classification](https://github.com/erfanasgari21/LSA_News_Classification)
+## 3- [LSA: News Topic Classification](https://github.com/erfanasgari21/LSA_News_Classification)
    _Designed by: [Erfan Asgari](https://github.com/erfanasgari21), [Fardin Abbasi](https://github.com/fardinabbasi)_  
    _Teaching Assistants of Linear Algebra | Spring 2024 | Dr. Sarafraz | University of Tehran_
 
