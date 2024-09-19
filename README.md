@@ -3,7 +3,7 @@
 This repository contains projects related to Linear Algebra, completed as part of academic coursework and teaching assistant activities in the Linear Algebra course at the University of Tehran. It includes one project completed as a student and two additional projects designed and implemented as a teaching assistant, demonstrating a range of linear algebra applications in both theoretical and practical contexts.
 
 
-## 1- SVD: Image Watermarking
+## 1- [SVD: Image Watermarking](SVD_Image_Watermarking)
    _Implemented by: [Erfan Asgari](https://github.com/erfanasgari21), [Sina Mohammadi](https://gist.github.com/smsina)_  
    _Students of Linear Algebra | Spring 2023 | Dr. Yazdanpanah | University of Tehran_
 
