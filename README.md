@@ -3,7 +3,7 @@
 This repository contains projects related to Linear Algebra, completed as part of academic coursework and teaching assistant activities in the Linear Algebra course at the University of Tehran. It includes one project completed as a student and two additional projects designed and implemented as a teaching assistant, demonstrating a range of linear algebra applications in both theoretical and practical contexts.
 
 
-## 1- [SVD: Image Watermarking](SVD_Image_Watermarking)
+## 1- [SVD: Image Watermarking](https://github.com/erfanasgari21/SVD_Image_Watermarking)
    _Implemented by: [Erfan Asgari](https://github.com/erfanasgari21), [Sina Mohammadi](https://gist.github.com/smsina)_  
    _Students of Linear Algebra | Spring 2023 | Dr. Yazdanpanah | University of Tehran_
 
@@ -12,7 +12,7 @@ This repository contains projects related to Linear Algebra, completed as part o
    **Keywords**: SVD, Watermarking, Singular Value Decomposition, Multimedia Security, Robustness
    
 
-## 2- Markov Matrices: Business Cycle
+## 2- [Markov Matrices: Business Cycle](https://github.com/erfanasgari21/Markov_Matrices_Business_Cycle)
    _Designed by: [Erfan Asgari](https://github.com/erfanasgari21), [Fardin Abbasi](https://github.com/fardinabbasi)_  
    _Teaching Assistants of Linear Algebra | Spring 2023 | Dr. Sarafraz | University of Tehran_
 
@@ -20,7 +20,7 @@ This repository contains projects related to Linear Algebra, completed as part o
 
    **Keywords**: Markov Chains, Business Cycle, Linear Algebra, Eigenvalue, Numerical Methods, Monte Carlo
 
-## 3- LSA: News Category Classification
+## 3- [LSA: News Category Classification](https://github.com/erfanasgari21/LSA_News_Classification)
    _Designed by: [Erfan Asgari](https://github.com/erfanasgari21), [Fardin Abbasi](https://github.com/fardinabbasi)_  
    _Teaching Assistants of Linear Algebra | Spring 2024 | Dr. Sarafraz | University of Tehran_
 
