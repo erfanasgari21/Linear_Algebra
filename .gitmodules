@@ -1,3 +1,6 @@
 [submodule "Markov_Matrices_Business_Cycle"]
 	path = Markov_Matrices_Business_Cycle
 	url = https://github.com/erfanasgari21/Markov_Matrices_Business_Cycle
+[submodule "LSA_News_Classification"]
+	path = LSA_News_Classification
+	url = https://github.com/erfanasgari21/LSA_News_Classification
