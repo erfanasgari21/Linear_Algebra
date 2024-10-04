@@ -14,7 +14,7 @@ This repository contains projects related to Linear Algebra, completed as part o
 
 ## 2- [Markov Matrices: Business Cycle](https://github.com/erfanasgari21/Markov_Matrices_Business_Cycle)
    _Designed by: [Erfan Asgari](https://github.com/erfanasgari21), [Fardin Abbasi](https://github.com/fardinabbasi)_  
-   _Teaching Assistants of Linear Algebra | Spring 2023 | Dr. Sarafraz | University of Tehran_
+   _Teaching Assistants of Linear Algebra | Spring 2024 | Dr. Sarafraz | University of Tehran_
 
    This project introduces students to Markov chains and numerical methods in linear algebra. It covers the analysis of Markov matrices, eigenvalues, and eigenvectors, with a specific application to Economics for business cycle analysis. The project demonstrates how these mathematical tools can help analyze economic trends and improve policy making.
 
